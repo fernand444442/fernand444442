@@ -1,0 +1,22 @@
+-graph LR
+    A(Inicio) --> B(Preparar la muestra)
+    B --> C(Pesar la muestra)
+    C --> D(Calcular el contenido de humedad)
+    D --> E(Realizar la incineración)
+    E --> F(Enfriar la muestra)
+    F --> G(Pesar la cápsula con cenizas)
+    G --> H(Calcular el contenido de cenizas)
+    H --> I(Fin)
+
+    B --> J(Preparar reactivo de Karl Fischer)
+    J --> K(Transferir muestra al matraz)
+    K --> L(Añadir reactivo de Karl Fischer)
+    L --> M(Agitación y reacción)
+    M --> N(Destilación si es necesario)
+    N --> O(Medir volumen de reactivo consumido)
+    O --> P(Calcular contenido de humedad)
+    
+    E --> Q(Calcinar la muestra)
+    Q --> R(Enfriar la cápsula)
+    R --> S(Pesar la cápsula con cenizas)
+    S --> T(Calcular contenido de cenizas)
